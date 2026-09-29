@@ -1,0 +1,101 @@
+# AI-Based Telecom Incident Ticket Analyzer — full stack in one command:
+#   cp .env.example .env   (add your GEMINI_API_KEY)
+#   docker compose up -d --build
+#   → dashboard: http://localhost:5173 · API docs: http://localhost:8001/docs
+#
+# The one-shot `init` service generates the synthetic dataset and builds the
+# ChromaDB index before the backend starts. Re-runs are no-ops (idempotent).
+
+name: telecom-ticket-analyzer
+
+services:
+  # ---------- database ----------
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-careloop}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-careloop}
+      POSTGRES_DB: ${POSTGRES_DB:-telecom_analyzer}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-careloop} -d ${POSTGRES_DB:-telecom_analyzer}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks:
+      - backend-net
+    # Not exposed to the host by default (only api + init talk to it).
+    expose:
+      - "5432"
+
+  # ---------- one-shot data preparation ----------
+  init:
+    build:
+      context: ./Backend
+      target: runtime
+    restart: "no"
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-careloop}:${POSTGRES_PASSWORD:-careloop}@db:5432/${POSTGRES_DB:-telecom_analyzer}
+    command: >
+      sh -c "python -m app.data.generator
+      && python -m app.data.documents
+      && python -m app.rag.ingest
+      && echo 'INIT COMPLETE: dataset generated + knowledge base indexed'"
+    volumes:
+      - appdata:/app/data        # same volume the backend reads
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - backend-net
+
+  # ---------- FastAPI backend ----------
+  api:
+    build:
+      context: ./Backend
+      target: runtime
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-careloop}:${POSTGRES_PASSWORD:-careloop}@db:5432/${POSTGRES_DB:-telecom_analyzer}
+    ports:
+      - "${API_PORT:-8001}:8001"
+    volumes:
+      - appdata:/app/data        # tickets CSVs + ChromaDB index (shared with init)
+    depends_on:
+      db:
+        condition: service_healthy
+      init:
+        condition: service_completed_successfully
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - backend-net
+      - frontend-net
+
+  # ---------- React dashboard (nginx static + /api proxy) ----------
+  web:
+    build:
+      context: ./Frontend
+      target: runtime
+    restart: unless-stopped
+    ports:
+      - "${WEB_PORT:-5173}:80"
+    depends_on:
+      api:
+        condition: service_started
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - frontend-net
+
+volumes:
+  pgdata:
+  appdata:
+
+networks:
+  backend-net:
+  frontend-net:

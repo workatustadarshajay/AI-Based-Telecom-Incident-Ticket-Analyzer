@@ -2,6 +2,11 @@
 .env
 Backend/.env
 Backend/.venv
+Frontend/dist
+video/renders
+video/node_modules
+video/snapshots
+video/assets/vo/test.wav
 Backend/data/chroma/
 Backend/data/documents/*.pdf
 node_modules/

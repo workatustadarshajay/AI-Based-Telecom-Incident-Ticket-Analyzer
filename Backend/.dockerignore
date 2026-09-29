@@ -1,0 +1,28 @@
+# --- Python / uv ---
+.venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.ruff_cache
+
+# --- generated data (created at runtime by the init service, persisted via volume) ---
+data
+
+# --- env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- git / docs ---
+.git
+.gitignore
+README.md
+*.md
+
+# --- docker ---
+Dockerfile
+.dockerignore
+
+# --- misc ---
+uv.lock.bak
