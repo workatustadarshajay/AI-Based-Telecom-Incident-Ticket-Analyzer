@@ -1,0 +1,501 @@
+ticket_id,category,severity
+TKT-0001,Network Outage,Critical
+TKT-0002,Network Outage,Critical
+TKT-0003,Connectivity Issue,High
+TKT-0004,Network Outage,Critical
+TKT-0005,Unknown / Other,Low
+TKT-0006,Network Outage,Critical
+TKT-0007,Performance Degradation,Medium
+TKT-0008,Configuration Issue,Medium
+TKT-0009,Infrastructure Issue,High
+TKT-0010,Configuration Issue,Medium
+TKT-0011,Voice Service Issue,High
+TKT-0012,Performance Degradation,Medium
+TKT-0013,Voice Service Issue,High
+TKT-0014,Connectivity Issue,High
+TKT-0015,Infrastructure Issue,High
+TKT-0016,Unknown / Other,Low
+TKT-0017,Configuration Issue,Medium
+TKT-0018,Network Outage,Critical
+TKT-0019,Unknown / Other,Low
+TKT-0020,Network Outage,Critical
+TKT-0021,Configuration Issue,Medium
+TKT-0022,Voice Service Issue,High
+TKT-0023,Performance Degradation,Medium
+TKT-0024,Connectivity Issue,High
+TKT-0025,Performance Degradation,Medium
+TKT-0026,Configuration Issue,Medium
+TKT-0027,Connectivity Issue,High
+TKT-0028,Infrastructure Issue,High
+TKT-0029,Configuration Issue,Medium
+TKT-0030,Connectivity Issue,High
+TKT-0031,Connectivity Issue,High
+TKT-0032,Unknown / Other,Low
+TKT-0033,Performance Degradation,Medium
+TKT-0034,Unknown / Other,Low
+TKT-0035,Infrastructure Issue,High
+TKT-0036,Connectivity Issue,High
+TKT-0037,Performance Degradation,Medium
+TKT-0038,Network Outage,Critical
+TKT-0039,Configuration Issue,Medium
+TKT-0040,Configuration Issue,Medium
+TKT-0041,Configuration Issue,Medium
+TKT-0042,Connectivity Issue,High
+TKT-0043,Connectivity Issue,High
+TKT-0044,Performance Degradation,Medium
+TKT-0045,Infrastructure Issue,High
+TKT-0046,Performance Degradation,Medium
+TKT-0047,Performance Degradation,Medium
+TKT-0048,Unknown / Other,Low
+TKT-0049,Configuration Issue,Medium
+TKT-0050,Configuration Issue,Medium
+TKT-0051,Infrastructure Issue,High
+TKT-0052,Infrastructure Issue,High
+TKT-0053,Configuration Issue,Medium
+TKT-0054,Unknown / Other,Low
+TKT-0055,Unknown / Other,Low
+TKT-0056,Connectivity Issue,High
+TKT-0057,Connectivity Issue,High
+TKT-0058,Connectivity Issue,High
+TKT-0059,Infrastructure Issue,High
+TKT-0060,Configuration Issue,Medium
+TKT-0061,Performance Degradation,Medium
+TKT-0062,Infrastructure Issue,High
+TKT-0063,Performance Degradation,Medium
+TKT-0064,Network Outage,Critical
+TKT-0065,Network Outage,Critical
+TKT-0066,Connectivity Issue,High
+TKT-0067,Unknown / Other,Low
+TKT-0068,Configuration Issue,Medium
+TKT-0069,Configuration Issue,Medium
+TKT-0070,Infrastructure Issue,High
+TKT-0071,Connectivity Issue,High
+TKT-0072,Performance Degradation,Medium
+TKT-0073,Configuration Issue,Medium
+TKT-0074,Voice Service Issue,High
+TKT-0075,Connectivity Issue,High
+TKT-0076,Connectivity Issue,High
+TKT-0077,Connectivity Issue,High
+TKT-0078,Network Outage,Critical
+TKT-0079,Performance Degradation,Medium
+TKT-0080,Voice Service Issue,High
+TKT-0081,Voice Service Issue,High
+TKT-0082,Voice Service Issue,High
+TKT-0083,Network Outage,Critical
+TKT-0084,Connectivity Issue,High
+TKT-0085,Configuration Issue,Medium
+TKT-0086,Network Outage,Critical
+TKT-0087,Unknown / Other,Low
+TKT-0088,Network Outage,Critical
+TKT-0089,Performance Degradation,Medium
+TKT-0090,Performance Degradation,Medium
+TKT-0091,Configuration Issue,Medium
+TKT-0092,Configuration Issue,Medium
+TKT-0093,Performance Degradation,Medium
+TKT-0094,Network Outage,Critical
+TKT-0095,Configuration Issue,Medium
+TKT-0096,Infrastructure Issue,High
+TKT-0097,Infrastructure Issue,High
+TKT-0098,Connectivity Issue,High
+TKT-0099,Performance Degradation,Medium
+TKT-0100,Connectivity Issue,High
+TKT-0101,Infrastructure Issue,High
+TKT-0102,Voice Service Issue,High
+TKT-0103,Configuration Issue,Medium
+TKT-0104,Connectivity Issue,High
+TKT-0105,Unknown / Other,Low
+TKT-0106,Performance Degradation,Medium
+TKT-0107,Connectivity Issue,High
+TKT-0108,Connectivity Issue,High
+TKT-0109,Unknown / Other,Low
+TKT-0110,Connectivity Issue,High
+TKT-0111,Configuration Issue,Medium
+TKT-0112,Voice Service Issue,High
+TKT-0113,Network Outage,Critical
+TKT-0114,Performance Degradation,Medium
+TKT-0115,Network Outage,Critical
+TKT-0116,Performance Degradation,Medium
+TKT-0117,Voice Service Issue,High
+TKT-0118,Network Outage,Critical
+TKT-0119,Infrastructure Issue,High
+TKT-0120,Connectivity Issue,High
+TKT-0121,Voice Service Issue,High
+TKT-0122,Network Outage,Critical
+TKT-0123,Connectivity Issue,High
+TKT-0124,Connectivity Issue,High
+TKT-0125,Configuration Issue,Medium
+TKT-0126,Infrastructure Issue,High
+TKT-0127,Network Outage,Critical
+TKT-0128,Configuration Issue,Medium
+TKT-0129,Voice Service Issue,High
+TKT-0130,Network Outage,Critical
+TKT-0131,Infrastructure Issue,High
+TKT-0132,Performance Degradation,Medium
+TKT-0133,Voice Service Issue,High
+TKT-0134,Unknown / Other,Low
+TKT-0135,Configuration Issue,Medium
+TKT-0136,Voice Service Issue,High
+TKT-0137,Performance Degradation,Medium
+TKT-0138,Network Outage,Critical
+TKT-0139,Infrastructure Issue,High
+TKT-0140,Performance Degradation,Medium
+TKT-0141,Configuration Issue,Medium
+TKT-0142,Unknown / Other,Low
+TKT-0143,Network Outage,Critical
+TKT-0144,Network Outage,Critical
+TKT-0145,Unknown / Other,Low
+TKT-0146,Voice Service Issue,High
+TKT-0147,Infrastructure Issue,High
+TKT-0148,Connectivity Issue,High
+TKT-0149,Performance Degradation,Medium
+TKT-0150,Connectivity Issue,High
+TKT-0151,Connectivity Issue,High
+TKT-0152,Network Outage,Critical
+TKT-0153,Configuration Issue,Medium
+TKT-0154,Voice Service Issue,High
+TKT-0155,Configuration Issue,Medium
+TKT-0156,Voice Service Issue,High
+TKT-0157,Network Outage,Critical
+TKT-0158,Performance Degradation,Medium
+TKT-0159,Configuration Issue,Medium
+TKT-0160,Infrastructure Issue,High
+TKT-0161,Infrastructure Issue,High
+TKT-0162,Unknown / Other,Low
+TKT-0163,Configuration Issue,Medium
+TKT-0164,Unknown / Other,Low
+TKT-0165,Connectivity Issue,High
+TKT-0166,Network Outage,Critical
+TKT-0167,Configuration Issue,Medium
+TKT-0168,Connectivity Issue,High
+TKT-0169,Configuration Issue,Medium
+TKT-0170,Connectivity Issue,High
+TKT-0171,Infrastructure Issue,High
+TKT-0172,Voice Service Issue,High
+TKT-0173,Unknown / Other,Low
+TKT-0174,Connectivity Issue,High
+TKT-0175,Configuration Issue,Medium
+TKT-0176,Configuration Issue,Medium
+TKT-0177,Performance Degradation,Medium
+TKT-0178,Configuration Issue,Medium
+TKT-0179,Performance Degradation,Medium
+TKT-0180,Unknown / Other,Low
+TKT-0181,Infrastructure Issue,High
+TKT-0182,Performance Degradation,Medium
+TKT-0183,Voice Service Issue,High
+TKT-0184,Connectivity Issue,High
+TKT-0185,Infrastructure Issue,High
+TKT-0186,Unknown / Other,Low
+TKT-0187,Infrastructure Issue,High
+TKT-0188,Performance Degradation,Medium
+TKT-0189,Infrastructure Issue,High
+TKT-0190,Performance Degradation,Medium
+TKT-0191,Connectivity Issue,High
+TKT-0192,Network Outage,Critical
+TKT-0193,Configuration Issue,Medium
+TKT-0194,Connectivity Issue,High
+TKT-0195,Connectivity Issue,High
+TKT-0196,Connectivity Issue,High
+TKT-0197,Connectivity Issue,High
+TKT-0198,Network Outage,Critical
+TKT-0199,Performance Degradation,Medium
+TKT-0200,Configuration Issue,Medium
+TKT-0201,Performance Degradation,Medium
+TKT-0202,Performance Degradation,Medium
+TKT-0203,Performance Degradation,Medium
+TKT-0204,Infrastructure Issue,High
+TKT-0205,Connectivity Issue,High
+TKT-0206,Performance Degradation,Medium
+TKT-0207,Configuration Issue,Medium
+TKT-0208,Performance Degradation,Medium
+TKT-0209,Configuration Issue,Medium
+TKT-0210,Network Outage,Critical
+TKT-0211,Performance Degradation,Medium
+TKT-0212,Voice Service Issue,High
+TKT-0213,Infrastructure Issue,High
+TKT-0214,Unknown / Other,Low
+TKT-0215,Unknown / Other,Low
+TKT-0216,Configuration Issue,Medium
+TKT-0217,Infrastructure Issue,High
+TKT-0218,Connectivity Issue,High
+TKT-0219,Performance Degradation,Medium
+TKT-0220,Connectivity Issue,High
+TKT-0221,Unknown / Other,Low
+TKT-0222,Configuration Issue,Medium
+TKT-0223,Connectivity Issue,High
+TKT-0224,Voice Service Issue,High
+TKT-0225,Configuration Issue,Medium
+TKT-0226,Performance Degradation,Medium
+TKT-0227,Network Outage,Critical
+TKT-0228,Performance Degradation,Medium
+TKT-0229,Performance Degradation,Medium
+TKT-0230,Configuration Issue,Medium
+TKT-0231,Performance Degradation,Medium
+TKT-0232,Performance Degradation,Medium
+TKT-0233,Voice Service Issue,High
+TKT-0234,Infrastructure Issue,High
+TKT-0235,Configuration Issue,Medium
+TKT-0236,Voice Service Issue,High
+TKT-0237,Configuration Issue,Medium
+TKT-0238,Connectivity Issue,High
+TKT-0239,Voice Service Issue,High
+TKT-0240,Infrastructure Issue,High
+TKT-0241,Infrastructure Issue,High
+TKT-0242,Performance Degradation,Medium
+TKT-0243,Configuration Issue,Medium
+TKT-0244,Performance Degradation,Medium
+TKT-0245,Configuration Issue,Medium
+TKT-0246,Connectivity Issue,High
+TKT-0247,Performance Degradation,Medium
+TKT-0248,Performance Degradation,Medium
+TKT-0249,Unknown / Other,Low
+TKT-0250,Performance Degradation,Medium
+TKT-0251,Connectivity Issue,High
+TKT-0252,Voice Service Issue,High
+TKT-0253,Performance Degradation,Medium
+TKT-0254,Connectivity Issue,High
+TKT-0255,Infrastructure Issue,High
+TKT-0256,Network Outage,Critical
+TKT-0257,Voice Service Issue,High
+TKT-0258,Voice Service Issue,High
+TKT-0259,Connectivity Issue,High
+TKT-0260,Voice Service Issue,High
+TKT-0261,Unknown / Other,Low
+TKT-0262,Network Outage,Critical
+TKT-0263,Infrastructure Issue,High
+TKT-0264,Configuration Issue,Medium
+TKT-0265,Network Outage,Critical
+TKT-0266,Unknown / Other,Low
+TKT-0267,Performance Degradation,Medium
+TKT-0268,Connectivity Issue,High
+TKT-0269,Infrastructure Issue,High
+TKT-0270,Network Outage,Critical
+TKT-0271,Infrastructure Issue,High
+TKT-0272,Performance Degradation,Medium
+TKT-0273,Performance Degradation,Medium
+TKT-0274,Performance Degradation,Medium
+TKT-0275,Unknown / Other,Low
+TKT-0276,Performance Degradation,Medium
+TKT-0277,Voice Service Issue,High
+TKT-0278,Infrastructure Issue,High
+TKT-0279,Voice Service Issue,High
+TKT-0280,Infrastructure Issue,High
+TKT-0281,Voice Service Issue,High
+TKT-0282,Performance Degradation,Medium
+TKT-0283,Network Outage,Critical
+TKT-0284,Connectivity Issue,High
+TKT-0285,Configuration Issue,Medium
+TKT-0286,Performance Degradation,Medium
+TKT-0287,Configuration Issue,Medium
+TKT-0288,Connectivity Issue,High
+TKT-0289,Connectivity Issue,High
+TKT-0290,Performance Degradation,Medium
+TKT-0291,Connectivity Issue,High
+TKT-0292,Performance Degradation,Medium
+TKT-0293,Voice Service Issue,High
+TKT-0294,Performance Degradation,Medium
+TKT-0295,Connectivity Issue,High
+TKT-0296,Infrastructure Issue,High
+TKT-0297,Performance Degradation,Medium
+TKT-0298,Performance Degradation,Medium
+TKT-0299,Performance Degradation,Medium
+TKT-0300,Voice Service Issue,High
+TKT-0301,Unknown / Other,Low
+TKT-0302,Connectivity Issue,High
+TKT-0303,Network Outage,Critical
+TKT-0304,Network Outage,Critical
+TKT-0305,Performance Degradation,Medium
+TKT-0306,Configuration Issue,Medium
+TKT-0307,Performance Degradation,Medium
+TKT-0308,Connectivity Issue,High
+TKT-0309,Infrastructure Issue,High
+TKT-0310,Infrastructure Issue,High
+TKT-0311,Network Outage,Critical
+TKT-0312,Network Outage,Critical
+TKT-0313,Infrastructure Issue,High
+TKT-0314,Configuration Issue,Medium
+TKT-0315,Voice Service Issue,High
+TKT-0316,Connectivity Issue,High
+TKT-0317,Voice Service Issue,High
+TKT-0318,Connectivity Issue,High
+TKT-0319,Network Outage,Critical
+TKT-0320,Connectivity Issue,High
+TKT-0321,Voice Service Issue,High
+TKT-0322,Network Outage,Critical
+TKT-0323,Performance Degradation,Medium
+TKT-0324,Voice Service Issue,High
+TKT-0325,Voice Service Issue,High
+TKT-0326,Network Outage,Critical
+TKT-0327,Unknown / Other,Low
+TKT-0328,Configuration Issue,Medium
+TKT-0329,Network Outage,Critical
+TKT-0330,Connectivity Issue,High
+TKT-0331,Infrastructure Issue,High
+TKT-0332,Infrastructure Issue,High
+TKT-0333,Connectivity Issue,High
+TKT-0334,Configuration Issue,Medium
+TKT-0335,Unknown / Other,Low
+TKT-0336,Connectivity Issue,High
+TKT-0337,Infrastructure Issue,High
+TKT-0338,Performance Degradation,Medium
+TKT-0339,Infrastructure Issue,High
+TKT-0340,Network Outage,Critical
+TKT-0341,Network Outage,Critical
+TKT-0342,Performance Degradation,Medium
+TKT-0343,Configuration Issue,Medium
+TKT-0344,Configuration Issue,Medium
+TKT-0345,Connectivity Issue,High
+TKT-0346,Configuration Issue,Medium
+TKT-0347,Configuration Issue,Medium
+TKT-0348,Unknown / Other,Low
+TKT-0349,Unknown / Other,Low
+TKT-0350,Connectivity Issue,High
+TKT-0351,Infrastructure Issue,High
+TKT-0352,Connectivity Issue,High
+TKT-0353,Connectivity Issue,High
+TKT-0354,Unknown / Other,Low
+TKT-0355,Unknown / Other,Low
+TKT-0356,Voice Service Issue,High
+TKT-0357,Infrastructure Issue,High
+TKT-0358,Unknown / Other,Low
+TKT-0359,Performance Degradation,Medium
+TKT-0360,Infrastructure Issue,High
+TKT-0361,Configuration Issue,Medium
+TKT-0362,Performance Degradation,Medium
+TKT-0363,Network Outage,Critical
+TKT-0364,Infrastructure Issue,High
+TKT-0365,Voice Service Issue,High
+TKT-0366,Connectivity Issue,High
+TKT-0367,Connectivity Issue,High
+TKT-0368,Connectivity Issue,High
+TKT-0369,Connectivity Issue,High
+TKT-0370,Performance Degradation,Medium
+TKT-0371,Performance Degradation,Medium
+TKT-0372,Unknown / Other,Low
+TKT-0373,Configuration Issue,Medium
+TKT-0374,Voice Service Issue,High
+TKT-0375,Unknown / Other,Low
+TKT-0376,Performance Degradation,Medium
+TKT-0377,Infrastructure Issue,High
+TKT-0378,Voice Service Issue,High
+TKT-0379,Performance Degradation,Medium
+TKT-0380,Unknown / Other,Low
+TKT-0381,Configuration Issue,Medium
+TKT-0382,Performance Degradation,Medium
+TKT-0383,Voice Service Issue,High
+TKT-0384,Performance Degradation,Medium
+TKT-0385,Performance Degradation,Medium
+TKT-0386,Connectivity Issue,High
+TKT-0387,Connectivity Issue,High
+TKT-0388,Voice Service Issue,High
+TKT-0389,Performance Degradation,Medium
+TKT-0390,Configuration Issue,Medium
+TKT-0391,Voice Service Issue,High
+TKT-0392,Configuration Issue,Medium
+TKT-0393,Performance Degradation,Medium
+TKT-0394,Unknown / Other,Low
+TKT-0395,Connectivity Issue,High
+TKT-0396,Configuration Issue,Medium
+TKT-0397,Network Outage,Critical
+TKT-0398,Unknown / Other,Low
+TKT-0399,Connectivity Issue,High
+TKT-0400,Performance Degradation,Medium
+TKT-0401,Performance Degradation,Medium
+TKT-0402,Configuration Issue,Medium
+TKT-0403,Network Outage,Critical
+TKT-0404,Infrastructure Issue,High
+TKT-0405,Unknown / Other,Low
+TKT-0406,Performance Degradation,Medium
+TKT-0407,Configuration Issue,Medium
+TKT-0408,Infrastructure Issue,High
+TKT-0409,Network Outage,Critical
+TKT-0410,Infrastructure Issue,High
+TKT-0411,Infrastructure Issue,High
+TKT-0412,Infrastructure Issue,High
+TKT-0413,Unknown / Other,Low
+TKT-0414,Infrastructure Issue,High
+TKT-0415,Performance Degradation,Medium
+TKT-0416,Performance Degradation,Medium
+TKT-0417,Unknown / Other,Low
+TKT-0418,Voice Service Issue,High
+TKT-0419,Configuration Issue,Medium
+TKT-0420,Network Outage,Critical
+TKT-0421,Unknown / Other,Low
+TKT-0422,Voice Service Issue,High
+TKT-0423,Connectivity Issue,High
+TKT-0424,Infrastructure Issue,High
+TKT-0425,Configuration Issue,Medium
+TKT-0426,Connectivity Issue,High
+TKT-0427,Unknown / Other,Low
+TKT-0428,Connectivity Issue,High
+TKT-0429,Performance Degradation,Medium
+TKT-0430,Voice Service Issue,High
+TKT-0431,Performance Degradation,Medium
+TKT-0432,Voice Service Issue,High
+TKT-0433,Unknown / Other,Low
+TKT-0434,Configuration Issue,Medium
+TKT-0435,Configuration Issue,Medium
+TKT-0436,Infrastructure Issue,High
+TKT-0437,Network Outage,Critical
+TKT-0438,Connectivity Issue,High
+TKT-0439,Voice Service Issue,High
+TKT-0440,Unknown / Other,Low
+TKT-0441,Configuration Issue,Medium
+TKT-0442,Connectivity Issue,High
+TKT-0443,Performance Degradation,Medium
+TKT-0444,Connectivity Issue,High
+TKT-0445,Connectivity Issue,High
+TKT-0446,Performance Degradation,Medium
+TKT-0447,Performance Degradation,Medium
+TKT-0448,Network Outage,Critical
+TKT-0449,Infrastructure Issue,High
+TKT-0450,Infrastructure Issue,High
+TKT-0451,Configuration Issue,Medium
+TKT-0452,Voice Service Issue,High
+TKT-0453,Unknown / Other,Low
+TKT-0454,Network Outage,Critical
+TKT-0455,Connectivity Issue,High
+TKT-0456,Performance Degradation,Medium
+TKT-0457,Unknown / Other,Low
+TKT-0458,Voice Service Issue,High
+TKT-0459,Performance Degradation,Medium
+TKT-0460,Voice Service Issue,High
+TKT-0461,Network Outage,Critical
+TKT-0462,Unknown / Other,Low
+TKT-0463,Infrastructure Issue,High
+TKT-0464,Voice Service Issue,High
+TKT-0465,Connectivity Issue,High
+TKT-0466,Voice Service Issue,High
+TKT-0467,Network Outage,Critical
+TKT-0468,Voice Service Issue,High
+TKT-0469,Infrastructure Issue,High
+TKT-0470,Configuration Issue,Medium
+TKT-0471,Connectivity Issue,High
+TKT-0472,Configuration Issue,Medium
+TKT-0473,Configuration Issue,Medium
+TKT-0474,Performance Degradation,Medium
+TKT-0475,Configuration Issue,Medium
+TKT-0476,Performance Degradation,Medium
+TKT-0477,Network Outage,Critical
+TKT-0478,Connectivity Issue,High
+TKT-0479,Configuration Issue,Medium
+TKT-0480,Voice Service Issue,High
+TKT-0481,Voice Service Issue,High
+TKT-0482,Connectivity Issue,High
+TKT-0483,Network Outage,Critical
+TKT-0484,Performance Degradation,Medium
+TKT-0485,Configuration Issue,Medium
+TKT-0486,Voice Service Issue,High
+TKT-0487,Performance Degradation,Medium
+TKT-0488,Unknown / Other,Low
+TKT-0489,Voice Service Issue,High
+TKT-0490,Infrastructure Issue,High
+TKT-0491,Voice Service Issue,High
+TKT-0492,Voice Service Issue,High
+TKT-0493,Unknown / Other,Low
+TKT-0494,Voice Service Issue,High
+TKT-0495,Performance Degradation,Medium
+TKT-0496,Connectivity Issue,High
+TKT-0497,Infrastructure Issue,High
+TKT-0498,Voice Service Issue,High
+TKT-0499,Voice Service Issue,High
+TKT-0500,Infrastructure Issue,High

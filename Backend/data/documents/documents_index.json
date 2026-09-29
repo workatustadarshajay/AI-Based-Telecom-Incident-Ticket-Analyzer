@@ -1,0 +1,190 @@
+[
+  {
+    "doc_id": "DOC-001",
+    "topic": "Network Outage Troubleshooting",
+    "service": "Mobile Data",
+    "network_type": "5G",
+    "sections": [
+      [
+        "Initial Checks",
+        "Confirm the site alarm status in the network management system. Verify whether the outage affects a single site, a cluster, or the whole region. Check power supply status and rectifier alarms. If the site is unreachable by NMS, treat it as a potential hardware or transport failure."
+      ],
+      [
+        "Restoration Steps",
+        "1. Verify site reachability and active alarms. 2. Check external power and battery backup status. 3. Ping the site router from the aggregation node. 4. If transport is down, escalate to the backhaul team with site ID and alarm timestamps. 5. If power is down, dispatch field operations. Escalate immediately if the outage affects more than 500 users or multiple sites."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-002",
+    "topic": "Backhaul Link Troubleshooting",
+    "service": "Mobile Data",
+    "network_type": "5G",
+    "sections": [
+      [
+        "Alarm Interpretation",
+        "Repeated backhaul link alarms (LOS) usually indicate fiber degradation or equipment faults on the aggregation ring. Intermittent connectivity combined with backhaul alarms points to the transport layer rather than the radio layer."
+      ],
+      [
+        "Procedure",
+        "1. Check optical power levels on both ends of the link. 2. Inspect error counters (CRC, FEC). 3. Perform a loopback test toward the site. 4. If optical levels are below threshold, schedule fiber inspection. Escalate if packet loss exceeds 2% over 15 minutes."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-003",
+    "topic": "Packet Loss and Latency Analysis",
+    "service": "Mobile Data",
+    "network_type": "4G",
+    "sections": [
+      [
+        "Diagnostics",
+        "Measure round-trip latency and packet loss from the core toward the affected region. Compare with the baseline for the same hour. Losses under 0.5% with elevated latency suggest congestion; sustained loss above 2% suggests a transmission fault."
+      ],
+      [
+        "Resolution Steps",
+        "1. Identify the congested link via throughput counters. 2. Apply QoS prioritization for affected service classes. 3. If congestion persists during peak hours, plan capacity expansion. 4. Verify improvements with a follow-up measurement after 24 hours."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-004",
+    "topic": "VoLTE Call Failure Troubleshooting",
+    "service": "Voice",
+    "network_type": "VoLTE",
+    "sections": [
+      [
+        "Common Causes",
+        "VoLTE call failures with data service unaffected usually involve registration failures, SIP signaling errors, or IMS core issues. One-way audio is commonly caused by media gateway or firewall issues."
+      ],
+      [
+        "Procedure",
+        "1. Check VoLTE registration success rate for the affected cluster. 2. Inspect SIP error codes (403, 486, 503). 3. Verify IMS core alarms. 4. For one-way audio, check RTP flow on media gateways. Escalate to the IMS team if registration failure rate exceeds 5%."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-005",
+    "topic": "Site Power and Infrastructure Issues",
+    "service": "Mobile Data",
+    "network_type": "5G",
+    "sections": [
+      [
+        "Battery Backup",
+        "Sites on battery backup should be checked every 2 hours. Typical battery autonomy is 4 to 8 hours. If grid power is not restored within autonomy, coordinate a generator dispatch."
+      ],
+      [
+        "Hardware Faults",
+        "For equipment shutdown risk due to cooling failure, shut down non-critical hardware in a controlled manner, open a field ticket, and record affected equipment list. Never perform remote restarts without field confirmation."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-006",
+    "topic": "Configuration Drift and QoS Policy Correction",
+    "service": "Broadband",
+    "network_type": "Fiber",
+    "sections": [
+      [
+        "Detection",
+        "Configuration drift is detected when deployed policy differs from the approved baseline. Symptoms include suboptimal routing, reduced throughput, or reachability issues after a maintenance window."
+      ],
+      [
+        "Correction Procedure",
+        "1. Diff the running configuration against the approved baseline. 2. Validate the intended change with the network design team. 3. Apply the approved correction during the change window. 4. Verify service restoration with synthetic tests. 5. Record the change in the audit log."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-007",
+    "topic": "Escalation Policy",
+    "service": "All",
+    "network_type": "All",
+    "sections": [
+      [
+        "Severity and Escalation",
+        "Critical incidents (broad outage, more than 500 users, or multiple sites) require immediate escalation to the on-call network manager and a bridge call. High incidents must be escalated within 30 minutes if unresolved. Medium and Low incidents follow standard business-hours handling. All AI-generated recommendations require human approval before any operational action."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-008",
+    "topic": "Handover and Connectivity Failure Analysis",
+    "service": "Mobile Data",
+    "network_type": "4G",
+    "sections": [
+      [
+        "Radio Layer Checks",
+        "Handover failures between neighboring sites can cause dropped connections. Check neighbor relation tables, interference levels, and pilot power. Devices failing to attach to the network may indicate authentication or core signaling issues."
+      ],
+      [
+        "Procedure",
+        "1. Verify attach success rate for the affected area. 2. Check HSS/AAA alarms. 3. Review neighbor cell relations for the cluster. 4. Escalate to RF optimization if interference is confirmed."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-009",
+    "topic": "Fixed Wireless Access Troubleshooting",
+    "service": "Fixed Wireless",
+    "network_type": "Fixed Wireless",
+    "sections": [
+      [
+        "Customer Premises Checks",
+        "For fixed wireless access, verify CPE signal levels and weather conditions. Rain fade commonly degrades high-band links. Confirm whether the issue affects one premises or several."
+      ],
+      [
+        "Resolution",
+        "1. Check CPE signal-to-noise ratio. 2. Confirm sector-level alarms. 3. If several premises are affected, treat as a sector issue and follow sector troubleshooting. 4. If a single premises is affected, schedule a field visit."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-010",
+    "topic": "Enterprise VPN Service Issues",
+    "service": "Enterprise VPN",
+    "network_type": "Fiber",
+    "sections": [
+      [
+        "Service Diagnostics",
+        "Enterprise VPN issues should be verified against the contracted service profile. Check CE-PE link status, BGP session state, and committed information rate compliance."
+      ],
+      [
+        "Resolution",
+        "1. Verify BGP session establishment. 2. Check interface errors on PE links. 3. Confirm CIR policing configuration. 4. Escalate to the enterprise service team with ticket evidence if SLA breach is suspected."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-011",
+    "topic": "SMS Core Service Troubleshooting",
+    "service": "SMS",
+    "network_type": "4G",
+    "sections": [
+      [
+        "Signaling Checks",
+        "SMS delivery failures involve MAP/Diameter signaling. Check SMSC queue depth and signaling link utilization. Queues above 70% indicate overload conditions."
+      ],
+      [
+        "Resolution",
+        "1. Inspect SMSC throughput counters. 2. Verify signaling link status. 3. Apply load shedding rules if overloaded. 4. Escalate if delivery success rate drops below 95%."
+      ]
+    ]
+  },
+  {
+    "doc_id": "DOC-012",
+    "topic": "IoT Service Troubleshooting",
+    "service": "IoT",
+    "network_type": "4G",
+    "sections": [
+      [
+        "Device Connectivity",
+        "IoT devices commonly fail in bulk due to APN configuration errors or core capacity limits. Verify whether failures cluster by APN or by region."
+      ],
+      [
+        "Resolution",
+        "1. Check APN provisioning for affected SIMs. 2. Review PGW/SAEGW session capacity. 3. If capacity exhaustion is confirmed, apply admission control and escalate for capacity expansion."
+      ]
+    ]
+  }
+]

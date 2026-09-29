@@ -1,1 +1,11 @@
 .github
+.env
+Backend/.env
+Backend/.venv
+Backend/data/chroma/
+Backend/data/documents/*.pdf
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.Freebuff

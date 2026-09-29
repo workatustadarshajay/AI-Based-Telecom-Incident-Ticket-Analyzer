@@ -1,17 +1,30 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-Based Telecom Incident Ticket Analyzer - FastAPI + LangGraph + Gemini + ChromaDB"
 readme = "README.md"
 authors = [
     { name = "Adarsh Ajay", email = "308638@ust.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.2",
+    "langchain-core>=0.3",
+    "langchain-google-genai>=2.0",
+    "langgraph>=0.4",
+    "langgraph-checkpoint-postgres>=2.0",
+    "chromadb>=0.5",
+    "onnxruntime>=1.19,<1.21",  # 1.21+ dropped Python 3.10 wheels (chromadb transitive dep)
+    "pypdf>=4.0",
+    "reportlab>=4.0",
+    "pandas>=2.0",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "psycopg[binary]>=3.1",
+]
 
-[project.scripts]
-backend = "backend:main"
-
-[build-system]
-requires = ["uv_build>=0.12.13,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false

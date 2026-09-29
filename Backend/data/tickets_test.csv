@@ -1,0 +1,186 @@
+ticket_id,timestamp,network_type,region,service,description,category,severity,affected_users,status,split
+TKT-0004,2026-09-03 07:27,5G,Region-C,Broadband,"Emergency: Region-C cell site down, 2966 users with no service at all.",Network Outage,Critical,2966,Open,test
+TKT-0007,2026-09-04 13:59,VoLTE,Region-B,IoT,Throughput on VoLTE in Region-B down 40% versus baseline; latency elevated for 323 users.,Performance Degradation,Medium,323,Open,test
+TKT-0008,2026-09-11 07:52,Fiber,Region-C,IoT,Misconfigured QoS policy in Region-C throttles IoT traffic below contracted rates. (Details unconfirmed by monitoring.),Configuration Issue,Medium,650,Open,test
+TKT-0013,2026-09-06 13:07,Fixed Wireless,Region-C,SMS,Voice service degraded in Region-C: 30% call failure rate on Fixed Wireless voice.,Voice Service Issue,High,111,Open,test
+TKT-0015,2026-09-24 10:30,Fixed Wireless,Region-A,IoT,Physical damage to fiber cabinet in Region-A affecting 711 users of IoT.,Infrastructure Issue,High,711,Open,test
+TKT-0023,2026-09-16 18:36,5G,Region-A,Mobile Data,Slow browsing and video buffering complaints from Region-A with no corresponding outage alarm.,Performance Degradation,Medium,462,Open,test
+TKT-0026,2026-09-13 09:40,4G,Region-D,Mobile Data,Incorrect VLAN configuration applied to Region-D aggregation ring causing service reachability issues.,Configuration Issue,Medium,479,Open,test
+TKT-0033,2026-09-26 01:20,VoLTE,Region-C,Voice,Users report increased latency and slow Voice throughput during evening hours in Region-C.,Performance Degradation,Medium,498,Open,test
+TKT-0036,2026-09-20 14:39,VoLTE,Region-A,Mobile Data,Handover failures between sites in Region-A cause dropped connections on VoLTE.,Connectivity Issue,High,799,Open,test
+TKT-0037,2026-09-26 10:34,VoLTE,Region-B,IoT,High packet loss (up to 8%) and degraded throughput observed on VoLTE backhaul in Region-B.,Performance Degradation,Medium,502,Open,test
+TKT-0041,2026-09-18 17:50,4G,Region-C,Voice,Wrong scheduler profile pushed to Region-C sites; Voice capacity reduced.,Configuration Issue,Medium,190,Open,test
+TKT-0042,2026-09-02 09:50,VoLTE,Region-C,Voice,Handover failures between sites in Region-C cause dropped connections on VoLTE.,Connectivity Issue,High,378,Open,test
+TKT-0043,2026-09-19 12:33,VoLTE,Region-C,IoT,A group of customers in Region-C cannot connect to VoLTE; data service partially available elsewhere.,Connectivity Issue,High,671,Open,test
+TKT-0046,2026-09-15 14:52,VoLTE,Region-D,Mobile Data,High packet loss (up to 8%) and degraded throughput observed on VoLTE backhaul in Region-D.,Performance Degradation,Medium,388,Open,test
+TKT-0050,2026-09-05 14:00,5G,Region-C,SMS,Misconfigured QoS policy in Region-C throttles SMS traffic below contracted rates.,Configuration Issue,Medium,423,Open,test
+TKT-0051,2026-09-12 11:26,4G,Region-B,Mobile Data,Physical damage to fiber cabinet in Region-B affecting 194 users of Mobile Data.,Infrastructure Issue,High,194,Open,test
+TKT-0054,2026-09-25 12:08,Fiber,Region-B,Enterprise VPN,"Customer complaint about unexplained service behavior, details unclear.",Unknown / Other,Low,170,Open,test
+TKT-0055,2026-09-08 13:50,Fixed Wireless,Region-D,SMS,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,114,Open,test
+TKT-0058,2026-09-10 17:55,VoLTE,Region-D,Enterprise VPN,A group of customers in Region-D cannot connect to VoLTE; data service partially available elsewhere. (Details unconfirmed by monitoring.),Connectivity Issue,High,213,Open,test
+TKT-0061,2026-09-02 13:27,Fiber,Region-B,SMS,Slow browsing and video buffering complaints from Region-B with no corresponding outage alarm.,Performance Degradation,Medium,596,Open,test
+TKT-0064,2026-09-02 17:53,4G,Region-A,IoT,Broad 4G outage confirmed by alarms; IoT unavailable across multiple sites in Region-A.,Network Outage,Critical,1129,Open,test
+TKT-0065,2026-09-22 11:56,Fiber,Region-A,SMS,Total service outage in Region-A: all SMS users (2585 users) offline since site alarm fired. (Details unconfirmed by monitoring.),Network Outage,Critical,2585,Open,test
+TKT-0066,2026-09-02 12:02,4G,Region-C,Mobile Data,A group of customers in Region-C cannot connect to 4G; data service partially available elsewhere.,Connectivity Issue,High,742,Open,test
+TKT-0068,2026-09-20 19:54,Fixed Wireless,Region-A,Broadband,Incorrect VLAN configuration applied to Region-A aggregation ring causing service reachability issues.,Configuration Issue,Medium,625,Open,test
+TKT-0069,2026-09-17 19:36,Fiber,Region-D,Mobile Data,Routing table inconsistency after maintenance in Region-D; traffic taking suboptimal path. (Details unconfirmed by monitoring.),Configuration Issue,Medium,523,Open,test
+TKT-0072,2026-09-17 11:33,VoLTE,Region-B,Enterprise VPN,Slow browsing and video buffering complaints from Region-B with no corresponding outage alarm.,Performance Degradation,Medium,267,Open,test
+TKT-0076,2026-09-25 17:18,5G,Region-B,Broadband,Single site shows intermittent connectivity and repeated backhaul link alarms in Region-B.,Connectivity Issue,High,272,Open,test
+TKT-0081,2026-09-21 20:04,Fixed Wireless,Region-B,SMS,Voice service degraded in Region-B: 30% call failure rate on Fixed Wireless voice.,Voice Service Issue,High,489,Open,test
+TKT-0082,2026-09-10 18:57,VoLTE,Region-A,SMS,Voice service degraded in Region-A: 30% call failure rate on VoLTE voice.,Voice Service Issue,High,201,Open,test
+TKT-0084,2026-09-04 13:44,VoLTE,Region-C,IoT,Single site shows intermittent connectivity and repeated backhaul link alarms in Region-C.,Connectivity Issue,High,614,Open,test
+TKT-0085,2026-09-08 02:44,Fiber,Region-A,SMS,Misconfigured QoS policy in Region-A throttles SMS traffic below contracted rates.,Configuration Issue,Medium,310,Open,test
+TKT-0086,2026-09-22 15:56,VoLTE,Region-C,Enterprise VPN,Total service outage in Region-C: all Enterprise VPN users (1818 users) offline since site alarm fired.,Network Outage,Critical,1818,Open,test
+TKT-0087,2026-09-20 23:53,Fiber,Region-A,SMS,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,10,Open,test
+TKT-0089,2026-09-23 17:05,VoLTE,Region-B,SMS,Slow browsing and video buffering complaints from Region-B with no corresponding outage alarm.,Performance Degradation,Medium,496,Open,test
+TKT-0095,2026-09-24 00:21,Fiber,Region-A,IoT,Incorrect VLAN configuration applied to Region-A aggregation ring causing service reachability issues.,Configuration Issue,Medium,237,Open,test
+TKT-0097,2026-09-13 11:49,VoLTE,Region-D,Broadband,Physical damage to fiber cabinet in Region-D affecting 1139 users of Broadband.,Infrastructure Issue,High,1139,Open,test
+TKT-0099,2026-09-11 23:06,4G,Region-B,SMS,Throughput on 4G in Region-B down 40% versus baseline; latency elevated for 442 users.,Performance Degradation,Medium,442,Open,test
+TKT-0101,2026-09-02 00:45,Fiber,Region-A,SMS,Site in Region-A unreachable by NMS; suspected hardware failure of transmission equipment.,Infrastructure Issue,High,1035,Open,test
+TKT-0102,2026-09-19 10:09,5G,Region-D,Broadband,"Voice call drops spike in Region-D; call setup failures observed on VoLTE, data unaffected.",Voice Service Issue,High,446,Open,test
+TKT-0107,2026-09-22 12:10,Fiber,Region-C,IoT,Users report their devices fail to attach to the Fiber network in Region-C during peak hours.,Connectivity Issue,High,159,Open,test
+TKT-0110,2026-09-03 13:34,VoLTE,Region-A,SMS,Handover failures between sites in Region-A cause dropped connections on VoLTE.,Connectivity Issue,High,852,Open,test
+TKT-0111,2026-09-12 17:45,4G,Region-C,Voice,Routing table inconsistency after maintenance in Region-C; traffic taking suboptimal path.,Configuration Issue,Medium,274,Open,test
+TKT-0113,2026-09-07 08:21,VoLTE,Region-D,Voice,Broad VoLTE outage confirmed by alarms; Voice unavailable across multiple sites in Region-D.,Network Outage,Critical,2444,Open,test
+TKT-0114,2026-09-16 17:58,4G,Region-C,Enterprise VPN,Throughput on 4G in Region-C down 40% versus baseline; latency elevated for 352 users.,Performance Degradation,Medium,352,Open,test
+TKT-0119,2026-09-23 14:29,Fixed Wireless,Region-B,Enterprise VPN,Cooling failure at Region-B data center rack; equipment shutdown risk.,Infrastructure Issue,High,302,Open,test
+TKT-0121,2026-09-06 21:25,5G,Region-D,Broadband,Subscribers in Region-D report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,294,Open,test
+TKT-0122,2026-09-12 10:02,Fixed Wireless,Region-A,Mobile Data,Total service outage in Region-A: all Mobile Data users (3532 users) offline since site alarm fired.,Network Outage,Critical,3532,Open,test
+TKT-0123,2026-09-08 01:10,Fixed Wireless,Region-B,Voice,Single site shows intermittent connectivity and repeated backhaul link alarms in Region-B.,Connectivity Issue,High,486,Open,test
+TKT-0125,2026-09-07 02:27,5G,Region-B,Broadband,Routing table inconsistency after maintenance in Region-B; traffic taking suboptimal path.,Configuration Issue,Medium,133,Open,test
+TKT-0130,2026-09-16 18:12,Fiber,Region-D,Voice,Total service outage in Region-D: all Voice users (4189 users) offline since site alarm fired.,Network Outage,Critical,4189,Open,test
+TKT-0131,2026-09-18 08:50,Fiber,Region-C,IoT,Site in Region-C unreachable by NMS; suspected hardware failure of transmission equipment.,Infrastructure Issue,High,622,Open,test
+TKT-0132,2026-09-18 07:01,5G,Region-A,Enterprise VPN,Users report increased latency and slow Enterprise VPN throughput during evening hours in Region-A.,Performance Degradation,Medium,148,Open,test
+TKT-0133,2026-09-20 13:57,5G,Region-D,Broadband,Subscribers in Region-D report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,781,Open,test
+TKT-0136,2026-09-13 18:29,Fixed Wireless,Region-C,Mobile Data,A group of customers cannot complete VoLTE calls while data service remains available in Region-C.,Voice Service Issue,High,284,Open,test
+TKT-0148,2026-09-22 10:45,5G,Region-B,IoT,Single site shows intermittent connectivity and repeated backhaul link alarms in Region-B.,Connectivity Issue,High,655,Open,test
+TKT-0151,2026-09-26 13:27,Fixed Wireless,Region-D,Enterprise VPN,A group of customers in Region-D cannot connect to Fixed Wireless; data service partially available elsewhere.,Connectivity Issue,High,744,Open,test
+TKT-0153,2026-09-21 06:08,Fixed Wireless,Region-B,Mobile Data,Incorrect VLAN configuration applied to Region-B aggregation ring causing service reachability issues.,Configuration Issue,Medium,333,Open,test
+TKT-0154,2026-09-16 17:35,VoLTE,Region-C,Enterprise VPN,Subscribers in Region-C report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,518,Open,test
+TKT-0155,2026-09-28 18:18,5G,Region-D,Broadband,Routing table inconsistency after maintenance in Region-D; traffic taking suboptimal path. (Details unconfirmed by monitoring.),Configuration Issue,Medium,338,Open,test
+TKT-0160,2026-09-12 03:26,Fiber,Region-A,Enterprise VPN,Physical damage to fiber cabinet in Region-A affecting 846 users of Enterprise VPN.,Infrastructure Issue,High,846,Open,test
+TKT-0162,2026-09-20 09:17,VoLTE,Region-D,SMS,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,135,Open,test
+TKT-0164,2026-09-08 00:56,4G,Region-C,Enterprise VPN,"Customer complaint about unexplained service behavior, details unclear. (Details unconfirmed by monitoring.)",Unknown / Other,Low,131,Open,test
+TKT-0177,2026-09-18 01:14,VoLTE,Region-B,Enterprise VPN,Slow browsing and video buffering complaints from Region-B with no corresponding outage alarm.,Performance Degradation,Medium,559,Open,test
+TKT-0183,2026-09-12 16:38,Fiber,Region-C,IoT,Subscribers in Region-C report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,385,Open,test
+TKT-0186,2026-09-14 13:09,VoLTE,Region-A,SMS,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,138,Open,test
+TKT-0191,2026-09-10 06:24,VoLTE,Region-C,Mobile Data,Single site shows intermittent connectivity and repeated backhaul link alarms in Region-C.,Connectivity Issue,High,406,Open,test
+TKT-0192,2026-09-28 06:24,Fixed Wireless,Region-A,SMS,Broad Fixed Wireless outage confirmed by alarms; SMS unavailable across multiple sites in Region-A.,Network Outage,Critical,2181,Open,test
+TKT-0193,2026-09-03 09:39,Fixed Wireless,Region-A,Mobile Data,Routing table inconsistency after maintenance in Region-A; traffic taking suboptimal path.,Configuration Issue,Medium,163,Open,test
+TKT-0198,2026-09-14 12:59,4G,Region-B,Mobile Data,"Emergency: Region-B cell site down, 1214 users with no service at all.",Network Outage,Critical,1214,Open,test
+TKT-0199,2026-09-24 00:14,VoLTE,Region-C,Voice,High packet loss (up to 8%) and degraded throughput observed on VoLTE backhaul in Region-C.,Performance Degradation,Medium,213,Open,test
+TKT-0200,2026-09-22 03:25,5G,Region-A,Enterprise VPN,Wrong scheduler profile pushed to Region-A sites; Enterprise VPN capacity reduced.,Configuration Issue,Medium,597,Open,test
+TKT-0205,2026-09-07 13:40,Fixed Wireless,Region-A,Mobile Data,Handover failures between sites in Region-A cause dropped connections on Fixed Wireless.,Connectivity Issue,High,189,Open,test
+TKT-0216,2026-09-17 02:19,VoLTE,Region-A,Broadband,Misconfigured QoS policy in Region-A throttles Broadband traffic below contracted rates.,Configuration Issue,Medium,160,Open,test
+TKT-0219,2026-09-23 01:30,5G,Region-B,Enterprise VPN,High packet loss (up to 8%) and degraded throughput observed on 5G backhaul in Region-B.,Performance Degradation,Medium,537,Open,test
+TKT-0228,2026-09-11 07:20,5G,Region-C,Broadband,Throughput on 5G in Region-C down 40% versus baseline; latency elevated for 276 users.,Performance Degradation,Medium,276,Open,test
+TKT-0229,2026-09-12 14:17,Fiber,Region-D,SMS,Throughput on Fiber in Region-D down 40% versus baseline; latency elevated for 273 users.,Performance Degradation,Medium,273,Open,test
+TKT-0231,2026-09-06 14:57,4G,Region-C,SMS,High packet loss (up to 8%) and degraded throughput observed on 4G backhaul in Region-C.,Performance Degradation,Medium,502,Open,test
+TKT-0235,2026-09-04 23:39,Fiber,Region-D,Enterprise VPN,Wrong scheduler profile pushed to Region-D sites; Enterprise VPN capacity reduced. (Details unconfirmed by monitoring.),Configuration Issue,Medium,464,Open,test
+TKT-0243,2026-09-18 16:19,Fiber,Region-D,Mobile Data,Misconfigured QoS policy in Region-D throttles Mobile Data traffic below contracted rates.,Configuration Issue,Medium,432,Open,test
+TKT-0246,2026-09-25 17:03,5G,Region-D,Broadband,Users report their devices fail to attach to the 5G network in Region-D during peak hours. (Details unconfirmed by monitoring.),Connectivity Issue,High,244,Open,test
+TKT-0247,2026-09-28 01:47,Fixed Wireless,Region-A,Mobile Data,Slow browsing and video buffering complaints from Region-A with no corresponding outage alarm.,Performance Degradation,Medium,242,Open,test
+TKT-0248,2026-09-06 16:08,VoLTE,Region-A,Voice,Throughput on VoLTE in Region-A down 40% versus baseline; latency elevated for 244 users.,Performance Degradation,Medium,244,Open,test
+TKT-0250,2026-09-22 16:48,VoLTE,Region-D,Enterprise VPN,Throughput on VoLTE in Region-D down 40% versus baseline; latency elevated for 150 users.,Performance Degradation,Medium,150,Open,test
+TKT-0254,2026-09-04 17:11,4G,Region-A,SMS,Handover failures between sites in Region-A cause dropped connections on 4G.,Connectivity Issue,High,184,Open,test
+TKT-0258,2026-09-18 07:28,VoLTE,Region-C,Enterprise VPN,Subscribers in Region-C report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,180,Open,test
+TKT-0260,2026-09-21 01:56,5G,Region-B,Mobile Data,A group of customers cannot complete VoLTE calls while data service remains available in Region-B.,Voice Service Issue,High,611,Open,test
+TKT-0262,2026-09-02 01:06,Fixed Wireless,Region-A,Voice,Broad Fixed Wireless outage confirmed by alarms; Voice unavailable across multiple sites in Region-A.,Network Outage,Critical,3376,Open,test
+TKT-0263,2026-09-27 02:58,5G,Region-C,Voice,Cooling failure at Region-C data center rack; equipment shutdown risk.,Infrastructure Issue,High,592,Open,test
+TKT-0264,2026-09-24 02:59,Fiber,Region-B,IoT,Routing table inconsistency after maintenance in Region-B; traffic taking suboptimal path.,Configuration Issue,Medium,160,Open,test
+TKT-0268,2026-09-01 13:40,VoLTE,Region-C,Mobile Data,Handover failures between sites in Region-C cause dropped connections on VoLTE.,Connectivity Issue,High,243,Open,test
+TKT-0282,2026-09-28 02:53,Fiber,Region-C,Enterprise VPN,High packet loss (up to 8%) and degraded throughput observed on Fiber backhaul in Region-C.,Performance Degradation,Medium,524,Open,test
+TKT-0285,2026-09-08 19:31,5G,Region-C,IoT,Incorrect VLAN configuration applied to Region-C aggregation ring causing service reachability issues.,Configuration Issue,Medium,191,Open,test
+TKT-0286,2026-09-19 18:25,VoLTE,Region-D,Enterprise VPN,High packet loss (up to 8%) and degraded throughput observed on VoLTE backhaul in Region-D.,Performance Degradation,Medium,287,Open,test
+TKT-0293,2026-09-18 19:22,5G,Region-D,Voice,Subscribers in Region-D report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,299,Open,test
+TKT-0295,2026-09-08 23:43,VoLTE,Region-B,SMS,A group of customers in Region-B cannot connect to VoLTE; data service partially available elsewhere.,Connectivity Issue,High,445,Open,test
+TKT-0296,2026-09-13 12:36,Fixed Wireless,Region-A,SMS,Cooling failure at Region-A data center rack; equipment shutdown risk.,Infrastructure Issue,High,333,Open,test
+TKT-0298,2026-09-10 21:14,5G,Region-D,Mobile Data,Throughput on 5G in Region-D down 40% versus baseline; latency elevated for 292 users.,Performance Degradation,Medium,292,Open,test
+TKT-0300,2026-09-13 12:00,VoLTE,Region-C,Broadband,"Voice call drops spike in Region-C; call setup failures observed on VoLTE, data unaffected.",Voice Service Issue,High,686,Open,test
+TKT-0301,2026-09-07 02:35,4G,Region-D,Mobile Data,"Customer complaint about unexplained service behavior, details unclear.",Unknown / Other,Low,70,Open,test
+TKT-0302,2026-09-13 13:30,Fiber,Region-D,Voice,Users report their devices fail to attach to the Fiber network in Region-D during peak hours.,Connectivity Issue,High,741,Open,test
+TKT-0303,2026-09-22 00:38,Fiber,Region-C,IoT,Multiple customers in Region-C report complete loss of Fiber data service after a base-station alarm.,Network Outage,Critical,3823,Open,test
+TKT-0304,2026-09-11 05:55,Fiber,Region-C,Mobile Data,Multiple customers in Region-C report complete loss of Fiber data service after a base-station alarm.,Network Outage,Critical,4058,Open,test
+TKT-0305,2026-09-27 02:22,VoLTE,Region-C,SMS,Throughput on VoLTE in Region-C down 40% versus baseline; latency elevated for 183 users.,Performance Degradation,Medium,183,Open,test
+TKT-0310,2026-09-06 19:43,Fiber,Region-A,Mobile Data,Physical damage to fiber cabinet in Region-A affecting 803 users of Mobile Data.,Infrastructure Issue,High,803,Open,test
+TKT-0312,2026-09-29 02:37,4G,Region-A,SMS,Total service outage in Region-A: all SMS users (869 users) offline since site alarm fired.,Network Outage,Critical,869,Open,test
+TKT-0314,2026-09-13 22:31,Fiber,Region-C,Voice,Wrong scheduler profile pushed to Region-C sites; Voice capacity reduced. (Details unconfirmed by monitoring.),Configuration Issue,Medium,333,Open,test
+TKT-0319,2026-09-05 02:01,Fixed Wireless,Region-D,Enterprise VPN,"Emergency: Region-D cell site down, 4095 users with no service at all.",Network Outage,Critical,4095,Open,test
+TKT-0322,2026-09-07 13:52,VoLTE,Region-B,Mobile Data,Multiple customers in Region-B report complete loss of VoLTE data service after a base-station alarm.,Network Outage,Critical,903,Open,test
+TKT-0326,2026-09-18 18:18,4G,Region-A,Enterprise VPN,Multiple customers in Region-A report complete loss of 4G data service after a base-station alarm.,Network Outage,Critical,3781,Open,test
+TKT-0327,2026-09-20 06:39,Fiber,Region-B,Broadband,"Customer complaint about unexplained service behavior, details unclear.",Unknown / Other,Low,63,Open,test
+TKT-0328,2026-09-24 19:21,5G,Region-A,Voice,Routing table inconsistency after maintenance in Region-A; traffic taking suboptimal path.,Configuration Issue,Medium,308,Open,test
+TKT-0330,2026-09-28 06:17,Fixed Wireless,Region-B,Enterprise VPN,Users report their devices fail to attach to the Fixed Wireless network in Region-B during peak hours.,Connectivity Issue,High,527,Open,test
+TKT-0338,2026-09-08 12:09,Fiber,Region-C,Mobile Data,High packet loss (up to 8%) and degraded throughput observed on Fiber backhaul in Region-C. (Details unconfirmed by monitoring.),Performance Degradation,Medium,142,Open,test
+TKT-0339,2026-09-12 15:07,4G,Region-C,Voice,Tower power failure reported at Region-C site; site running on backup batteries for 2 hours.,Infrastructure Issue,High,286,Open,test
+TKT-0345,2026-09-12 12:27,4G,Region-A,SMS,Handover failures between sites in Region-A cause dropped connections on 4G.,Connectivity Issue,High,784,Open,test
+TKT-0354,2026-09-17 22:33,4G,Region-B,Mobile Data,"Ticket description incomplete: region unknown, symptoms vague, no alarm data. (Details unconfirmed by monitoring.)",Unknown / Other,Low,134,Open,test
+TKT-0356,2026-09-28 03:17,4G,Region-C,Voice,Voice service degraded in Region-C: 30% call failure rate on 4G voice.,Voice Service Issue,High,781,Open,test
+TKT-0359,2026-09-05 08:54,4G,Region-C,Broadband,Users report increased latency and slow Broadband throughput during evening hours in Region-C.,Performance Degradation,Medium,221,Open,test
+TKT-0360,2026-09-12 16:33,Fiber,Region-A,Broadband,Site in Region-A unreachable by NMS; suspected hardware failure of transmission equipment.,Infrastructure Issue,High,529,Open,test
+TKT-0361,2026-09-08 21:41,5G,Region-D,Enterprise VPN,Incorrect VLAN configuration applied to Region-D aggregation ring causing service reachability issues.,Configuration Issue,Medium,509,Open,test
+TKT-0364,2026-09-20 23:07,VoLTE,Region-D,IoT,Tower power failure reported at Region-D site; site running on backup batteries for 2 hours.,Infrastructure Issue,High,163,Open,test
+TKT-0365,2026-09-26 13:14,VoLTE,Region-B,Voice,"Voice call drops spike in Region-B; call setup failures observed on VoLTE, data unaffected. (Details unconfirmed by monitoring.)",Voice Service Issue,High,519,Open,test
+TKT-0370,2026-09-05 05:36,VoLTE,Region-A,Voice,High packet loss (up to 8%) and degraded throughput observed on VoLTE backhaul in Region-A.,Performance Degradation,Medium,149,Open,test
+TKT-0371,2026-09-20 09:15,Fixed Wireless,Region-A,Enterprise VPN,High packet loss (up to 8%) and degraded throughput observed on Fixed Wireless backhaul in Region-A.,Performance Degradation,Medium,585,Open,test
+TKT-0373,2026-09-10 23:26,5G,Region-D,Voice,Misconfigured QoS policy in Region-D throttles Voice traffic below contracted rates.,Configuration Issue,Medium,251,Open,test
+TKT-0377,2026-09-16 23:35,5G,Region-A,Broadband,Tower power failure reported at Region-A site; site running on backup batteries for 2 hours.,Infrastructure Issue,High,1196,Open,test
+TKT-0378,2026-09-07 21:07,5G,Region-B,Broadband,Voice service degraded in Region-B: 30% call failure rate on 5G voice.,Voice Service Issue,High,512,Open,test
+TKT-0379,2026-09-13 13:21,VoLTE,Region-B,Mobile Data,Slow browsing and video buffering complaints from Region-B with no corresponding outage alarm.,Performance Degradation,Medium,536,Open,test
+TKT-0380,2026-09-15 00:12,Fiber,Region-A,Voice,"Ticket description incomplete: region unknown, symptoms vague, no alarm data. (Details unconfirmed by monitoring.)",Unknown / Other,Low,34,Open,test
+TKT-0381,2026-09-10 22:53,Fiber,Region-A,Voice,Routing table inconsistency after maintenance in Region-A; traffic taking suboptimal path.,Configuration Issue,Medium,532,Open,test
+TKT-0385,2026-09-13 02:31,Fixed Wireless,Region-C,Broadband,Slow browsing and video buffering complaints from Region-C with no corresponding outage alarm.,Performance Degradation,Medium,217,Open,test
+TKT-0386,2026-09-11 09:46,5G,Region-B,SMS,Handover failures between sites in Region-B cause dropped connections on 5G.,Connectivity Issue,High,369,Open,test
+TKT-0387,2026-09-22 21:50,Fixed Wireless,Region-A,IoT,Handover failures between sites in Region-A cause dropped connections on Fixed Wireless.,Connectivity Issue,High,159,Open,test
+TKT-0391,2026-09-24 21:01,VoLTE,Region-C,Voice,Subscribers in Region-C report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,253,Open,test
+TKT-0392,2026-09-23 23:15,VoLTE,Region-B,IoT,Wrong scheduler profile pushed to Region-B sites; IoT capacity reduced.,Configuration Issue,Medium,106,Open,test
+TKT-0393,2026-09-25 15:57,5G,Region-B,Broadband,Slow browsing and video buffering complaints from Region-B with no corresponding outage alarm.,Performance Degradation,Medium,277,Open,test
+TKT-0399,2026-09-15 14:19,Fiber,Region-C,IoT,A group of customers in Region-C cannot connect to Fiber; data service partially available elsewhere.,Connectivity Issue,High,331,Open,test
+TKT-0400,2026-09-07 05:20,4G,Region-B,Enterprise VPN,High packet loss (up to 8%) and degraded throughput observed on 4G backhaul in Region-B.,Performance Degradation,Medium,140,Open,test
+TKT-0401,2026-09-10 09:48,Fiber,Region-A,Mobile Data,Slow browsing and video buffering complaints from Region-A with no corresponding outage alarm.,Performance Degradation,Medium,596,Open,test
+TKT-0402,2026-09-11 15:08,5G,Region-A,IoT,Misconfigured QoS policy in Region-A throttles IoT traffic below contracted rates.,Configuration Issue,Medium,334,Open,test
+TKT-0404,2026-09-17 16:23,Fiber,Region-B,Broadband,Site in Region-B unreachable by NMS; suspected hardware failure of transmission equipment.,Infrastructure Issue,High,1103,Open,test
+TKT-0406,2026-09-06 06:05,VoLTE,Region-A,SMS,Users report increased latency and slow SMS throughput during evening hours in Region-A. (Details unconfirmed by monitoring.),Performance Degradation,Medium,99,Open,test
+TKT-0407,2026-09-22 22:10,Fiber,Region-A,SMS,Incorrect VLAN configuration applied to Region-A aggregation ring causing service reachability issues. (Details unconfirmed by monitoring.),Configuration Issue,Medium,338,Open,test
+TKT-0411,2026-09-05 09:12,VoLTE,Region-B,Mobile Data,Cooling failure at Region-B data center rack; equipment shutdown risk.,Infrastructure Issue,High,126,Open,test
+TKT-0412,2026-09-12 23:30,5G,Region-A,IoT,Physical damage to fiber cabinet in Region-A affecting 307 users of IoT.,Infrastructure Issue,High,307,Open,test
+TKT-0413,2026-09-03 03:05,Fiber,Region-A,Mobile Data,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,44,Open,test
+TKT-0414,2026-09-07 15:09,5G,Region-A,Mobile Data,Cooling failure at Region-A data center rack; equipment shutdown risk.,Infrastructure Issue,High,119,Open,test
+TKT-0417,2026-09-27 05:26,5G,Region-D,SMS,"Customer complaint about unexplained service behavior, details unclear.",Unknown / Other,Low,123,Open,test
+TKT-0420,2026-09-08 02:22,Fiber,Region-C,IoT,Total service outage in Region-C: all IoT users (3952 users) offline since site alarm fired.,Network Outage,Critical,3952,Open,test
+TKT-0421,2026-09-23 21:35,5G,Region-B,SMS,"Customer complaint about unexplained service behavior, details unclear.",Unknown / Other,Low,120,Open,test
+TKT-0422,2026-09-26 09:17,VoLTE,Region-A,SMS,Subscribers in Region-A report one-way audio on VoLTE calls for the last hour. (Details unconfirmed by monitoring.),Voice Service Issue,High,328,Open,test
+TKT-0426,2026-09-17 20:48,Fixed Wireless,Region-D,IoT,Handover failures between sites in Region-D cause dropped connections on Fixed Wireless. (Details unconfirmed by monitoring.),Connectivity Issue,High,822,Open,test
+TKT-0427,2026-09-18 08:23,VoLTE,Region-C,SMS,"Customer complaint about unexplained service behavior, details unclear. (Details unconfirmed by monitoring.)",Unknown / Other,Low,133,Open,test
+TKT-0429,2026-09-03 10:47,4G,Region-C,Mobile Data,Slow browsing and video buffering complaints from Region-C with no corresponding outage alarm.,Performance Degradation,Medium,474,Open,test
+TKT-0430,2026-09-25 11:17,Fiber,Region-B,Enterprise VPN,Voice service degraded in Region-B: 30% call failure rate on Fiber voice.,Voice Service Issue,High,104,Open,test
+TKT-0434,2026-09-17 01:09,4G,Region-B,SMS,Misconfigured QoS policy in Region-B throttles SMS traffic below contracted rates.,Configuration Issue,Medium,377,Open,test
+TKT-0437,2026-09-07 23:56,4G,Region-C,IoT,Total service outage in Region-C: all IoT users (2852 users) offline since site alarm fired. (Details unconfirmed by monitoring.),Network Outage,Critical,2852,Open,test
+TKT-0438,2026-09-26 21:43,VoLTE,Region-D,Mobile Data,A group of customers in Region-D cannot connect to VoLTE; data service partially available elsewhere.,Connectivity Issue,High,780,Open,test
+TKT-0439,2026-09-03 11:18,Fixed Wireless,Region-C,IoT,"Voice call drops spike in Region-C; call setup failures observed on VoLTE, data unaffected.",Voice Service Issue,High,780,Open,test
+TKT-0443,2026-09-22 13:21,Fixed Wireless,Region-C,Mobile Data,Throughput on Fixed Wireless in Region-C down 40% versus baseline; latency elevated for 388 users. (Details unconfirmed by monitoring.),Performance Degradation,Medium,388,Open,test
+TKT-0446,2026-09-11 06:36,VoLTE,Region-C,Broadband,High packet loss (up to 8%) and degraded throughput observed on VoLTE backhaul in Region-C.,Performance Degradation,Medium,350,Open,test
+TKT-0447,2026-09-29 06:19,5G,Region-C,Enterprise VPN,Users report increased latency and slow Enterprise VPN throughput during evening hours in Region-C.,Performance Degradation,Medium,296,Open,test
+TKT-0448,2026-09-25 22:04,Fiber,Region-A,Enterprise VPN,Broad Fiber outage confirmed by alarms; Enterprise VPN unavailable across multiple sites in Region-A.,Network Outage,Critical,2901,Open,test
+TKT-0449,2026-09-14 19:47,Fixed Wireless,Region-D,Enterprise VPN,Site in Region-D unreachable by NMS; suspected hardware failure of transmission equipment.,Infrastructure Issue,High,189,Open,test
+TKT-0450,2026-09-10 22:13,4G,Region-A,IoT,Tower power failure reported at Region-A site; site running on backup batteries for 2 hours.,Infrastructure Issue,High,234,Open,test
+TKT-0451,2026-09-04 14:46,5G,Region-B,SMS,Wrong scheduler profile pushed to Region-B sites; SMS capacity reduced.,Configuration Issue,Medium,525,Open,test
+TKT-0462,2026-09-15 05:52,Fiber,Region-D,Broadband,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,157,Open,test
+TKT-0463,2026-09-12 12:53,Fiber,Region-B,Mobile Data,Site in Region-B unreachable by NMS; suspected hardware failure of transmission equipment.,Infrastructure Issue,High,741,Open,test
+TKT-0466,2026-09-19 18:30,5G,Region-A,SMS,A group of customers cannot complete VoLTE calls while data service remains available in Region-A.,Voice Service Issue,High,692,Open,test
+TKT-0471,2026-09-22 00:35,Fixed Wireless,Region-C,Enterprise VPN,Single site shows intermittent connectivity and repeated backhaul link alarms in Region-C.,Connectivity Issue,High,630,Open,test
+TKT-0475,2026-09-06 17:14,4G,Region-B,Broadband,Routing table inconsistency after maintenance in Region-B; traffic taking suboptimal path. (Details unconfirmed by monitoring.),Configuration Issue,Medium,696,Open,test
+TKT-0477,2026-09-03 02:48,4G,Region-B,Voice,Multiple customers in Region-B report complete loss of 4G data service after a base-station alarm.,Network Outage,Critical,4999,Open,test
+TKT-0478,2026-09-02 04:20,Fixed Wireless,Region-D,SMS,Users report their devices fail to attach to the Fixed Wireless network in Region-D during peak hours.,Connectivity Issue,High,727,Open,test
+TKT-0481,2026-09-20 10:31,5G,Region-B,SMS,Voice service degraded in Region-B: 30% call failure rate on 5G voice. (Details unconfirmed by monitoring.),Voice Service Issue,High,616,Open,test
+TKT-0482,2026-09-07 06:21,Fixed Wireless,Region-A,Mobile Data,A group of customers in Region-A cannot connect to Fixed Wireless; data service partially available elsewhere.,Connectivity Issue,High,643,Open,test
+TKT-0485,2026-09-01 13:58,Fixed Wireless,Region-D,Broadband,Routing table inconsistency after maintenance in Region-D; traffic taking suboptimal path.,Configuration Issue,Medium,273,Open,test
+TKT-0486,2026-09-10 16:22,Fixed Wireless,Region-A,Enterprise VPN,A group of customers cannot complete VoLTE calls while data service remains available in Region-A.,Voice Service Issue,High,770,Open,test
+TKT-0489,2026-09-07 14:48,VoLTE,Region-C,IoT,Subscribers in Region-C report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,507,Open,test
+TKT-0490,2026-09-19 13:31,4G,Region-A,Voice,Cooling failure at Region-A data center rack; equipment shutdown risk.,Infrastructure Issue,High,1141,Open,test
+TKT-0491,2026-09-05 11:29,4G,Region-D,IoT,A group of customers cannot complete VoLTE calls while data service remains available in Region-D.,Voice Service Issue,High,105,Open,test
+TKT-0492,2026-09-04 23:25,5G,Region-C,Voice,A group of customers cannot complete VoLTE calls while data service remains available in Region-C.,Voice Service Issue,High,479,Open,test
+TKT-0493,2026-09-03 22:45,Fixed Wireless,Region-C,IoT,"Ticket description incomplete: region unknown, symptoms vague, no alarm data.",Unknown / Other,Low,152,Open,test
+TKT-0497,2026-09-17 03:32,5G,Region-C,IoT,Tower power failure reported at Region-C site; site running on backup batteries for 2 hours.,Infrastructure Issue,High,812,Open,test
+TKT-0499,2026-09-25 19:32,VoLTE,Region-A,SMS,Subscribers in Region-A report one-way audio on VoLTE calls for the last hour.,Voice Service Issue,High,363,Open,test
+TKT-0500,2026-09-22 05:11,Fixed Wireless,Region-D,Voice,Cooling failure at Region-D data center rack; equipment shutdown risk.,Infrastructure Issue,High,795,Open,test
